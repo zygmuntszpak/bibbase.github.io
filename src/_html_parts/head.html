@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{if hasmath}} {{insert head_katex.html }}     {{end}}
+  {{if hascode}} {{insert head_highlight.html }}   {{end}}
+  <link rel="stylesheet" href="/css/judoc.css">
+  <link rel="stylesheet" href="/css/poole_hyde.css">
+  <!-- style adjustments -->
+  <style>
+    html {font-size: 17px;}
+    .jd-content {position: relative; padding-left: 8%; padding-right: 5%; line-height: 1.35em;}
+    @media (min-width: 940px) {
+      .jd-content {width: 100%; margin-left: auto; margin-right: auto;}
+    }
+    @media (max-width: 768px) {
+      .jd-content {padding-left: 6%; padding-right: 6%;}
+    }
+  </style>
+  <link rel="icon" href="/assets/infra/favicon.png">
+  {{isdef title}} <title>{{fill title}}</title>  {{end}}
+</head>
+<body>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">      
+      <p class="lead">Zygmunt Szpak, PhD</p>
+    </div>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item {{ispage /index.html}}active{{end}}" href="/">Home</a>
+      <a class="sidebar-nav-item {{ispage /pub/news.html}}active{{end}}" href="/pub/news.html">News</a>
+      <a class="sidebar-nav-item {{ispage /pub/research.html}}active{{end}}" href="/pub/research.html">Research</a>
+    <a class="sidebar-nav-item {{ispage /pub/industry.html}}active{{end}}" href="/pub/industry.html">Industry Projects</a>
+      <a class="sidebar-nav-item {{ispage /pub/research.html}}active{{end}}" href="/pub/publications.html">Publications</a>
+      <a class="sidebar-nav-item {{ispage /pub/code.html}}active{{end}}" href="/pub/code.html">Code</a>
+  
+    </nav>
+   
+  </div>
+</div>
+<div class="content container">
+<!-- Content appended here -->

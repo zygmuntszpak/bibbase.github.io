@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Un-minified script so that can play a bit -->
+<link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
+  
+  <link rel="stylesheet" href="/css/judoc.css">
+  <link rel="stylesheet" href="/css/poole_hyde.css">
+  <!-- style adjustments -->
+  <style>
+    html {font-size: 17px;}
+    .jd-content {position: relative; padding-left: 8%; padding-right: 5%; line-height: 1.35em;}
+    @media (min-width: 940px) {
+      .jd-content {width: 100%; margin-left: auto; margin-right: auto;}
+    }
+    @media (max-width: 768px) {
+      .jd-content {padding-left: 6%; padding-right: 6%;}
+    }
+  </style>
+  <link rel="icon" href="/assets/infra/favicon.png">
+   <title>Code</title>  
+</head>
+<body>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">      
+      <p class="lead">Zygmunt Szpak, PhD</p>
+    </div>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item " href="/">Home</a>
+      <a class="sidebar-nav-item " href="/pub/news.html">News</a>
+      <a class="sidebar-nav-item " href="/pub/research.html">Research</a>
+    <a class="sidebar-nav-item " href="/pub/industry.html">Industry Projects</a>
+      <a class="sidebar-nav-item " href="/pub/publications.html">Publications</a>
+      <a class="sidebar-nav-item " href="/pub/code.html">Code</a>
+  
+    </nav>
+   
+  </div>
+</div>
+<div class="content container">
+<!-- Content appended here -->
+
+<div class="jd-content">
+<h1><a id="code" href="#code">Code</a></h1>
+<p>Nowadays I do all of my new software development in the fantastic programming language <a href="https://julialang.org/">Julia</a>. I am a member of the <a href="https://github.com/JuliaImages">Julia Images organisation</a>—an organisation that maintains numerous free and open-source Julia image processing packages. </p>
+<p>I have twice served as a mentor for the <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> program. Google Summer of Code is a global program where students work with an open source organization on a 3 month programming project during their break from school.</p>
+<p>All of my code is hosted on my <a href="http://github.com/zygmuntszpak">Github</a> account.</p>
+<h3><a id="ellipse-fitting" href="#ellipse-fitting">Ellipse Fitting</a></h3>
+<p>I am in the process of reimplementing some of my previous work on ellipse fitting in <a href="https://julialang.org/">Julia</a>.</p>
+<p>Click <a href="https://github.com/zygmuntszpak/guaranteed-ellipse-fitting-with-a-confidence-region-and-an-uncertainty-measure">here</a>  for the  original MATLAB implementation of:</p>
+<ul>
+<li><p>Szpak, Z., Chojnacki, W. and Van Den Hengel, A. <em>Guaranteed ellipse fitting with the Sampson distance</em> In: Fitzgibbon A., Lazebnik S., Perona P., Sato Y., Schmid C. &#40;eds&#41; Computer Vision – ECCV 2012. ECCV <strong>2012</strong>. Lecture Notes in Computer Science, vol 7576. Springer, Berlin, Heidelberg</p>
+</li>
+</ul>
+<p>Click <a href="https://github.com/zygmuntszpak/guaranteed-ellipse-fitting-with-sampson-distance">here</a> for the original MATLAB implementation of:</p>
+<ul>
+<li><p>Szpak, Z., Chojnacki, W. and van den Hengel, A. <em>Guaranteed Ellipse Fitting with a Confidence Region and an Uncertainty Measure for Centre, Axes, and Orientation</em> Journal of Mathematical Imaging and Vision, <strong>2015</strong>, Vol. 52&#40;2&#41;, pp. 173-199</p>
+</li>
+</ul>
+<h3><a id="multiple-view-geometry" href="#multiple-view-geometry">Multiple-view Geometry</a></h3>
+<p>I am developing a comprehensive Julia multiple-view geometry package which will be available soon. The package will also include implementations of my published algorithms. </p>
+<p>Click <a href="https://github.com/zygmuntszpak/estimating-multiple-homographies-with-full-consistency-constraints">here</a> for the MATLAB implementation of:</p>
+<ul>
+<li><p>Szpak, Z., Chojnacki, W., Eriksson, A. and Van Den Hengel, A. <em>Sampson distance based joint estimation of multiple homographies with uncalibrated cameras</em> Computer Vision and Image Understanding, <strong>2014</strong>, Vol. 125, pp. 200-213</p>
+</li>
+<li><p>Chojnacki, W., Szpak, Z., Brooks, M. and van den Hengel, A. <em>Enforcing consistency constraints in uncalibrated multiple homography estimation using latent variables</em> Machine Vision and Applications, <strong>2015</strong>, Vol. 26&#40;2-3&#41;, pp. 401-422</p>
+</li>
+</ul>
+<h3><a id="image-processing" href="#image-processing">Image Processing</a></h3>
+<p>I have developed or co-developed several free and open-source Julia Image Processing packages. </p>
+<h4><a id="image-binarization" href="#image-binarization">Image Binarization</a></h4>
+<p>The <a href="https://github.com/zygmuntszpak/ImageBinarization.jl">ImageBinarization.jl</a> package contains numerous algorithms for analyzing images and automatically binarizing them into background and foreground.</p>
+<h4><a id="image-contrast-adjustment" href="#image-contrast-adjustment">Image Contrast Adjustment</a></h4>
+<p>The <a href="https://github.com/zygmuntszpak/ImageContrastAdjustment.jl">ImageContrastAdjustment.jl</a> package contains several methods for enhancing and manipulating image contrast. It includes, for example, histogram equalization, gamma correction and contrast stretching. 
+<div class="page-foot">
+  <div class="copyright">
+    &copy; Septimia Zenobia. Last modified: August 18, 2019. Website built with <a href="https://github.com/tlienart/JuDoc.jl">JuDoc.jl</a>.
+  </div>
+</div>
+
+</div>
+<!-- CONTENT ENDS HERE -->
+    </div>  <!-- div: content container -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
+    
+    
+  </body>
+</html>

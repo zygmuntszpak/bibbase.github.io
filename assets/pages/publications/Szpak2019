@@ -1,0 +1,12 @@
+@Article{Szpak2019,
+  Title                    = {Determining ellipses from low-resolution images with a comprehensive image formation model},
+  Author                   = {Chojnacki, W. and Szpak, Z.L.},
+  Journal                  = {Journal of the Optical Society of America A: Optics and Image Science, and Vision},
+  Year                     = {2019},
+  Number                   = {2},
+  Pages                    = {212-233},
+  Volume                   = {36},
+
+  Doi                      = {10.1364/JOSAA.36.000212},
+  Url                      = {http://www.cs.adelaide.edu.au/~wojtek/papers/ellipselowres.pdf}
+}

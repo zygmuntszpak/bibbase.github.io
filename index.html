@@ -1,76 +1,111 @@
-<html>
-  <head>
-    <title>Albert Einstein's Example Publication Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />    
-  </head>
-
-
-  <body>
-    <a href="https://github.com/BibBase/bibbase.github.io">
-      <img style="position: absolute; top: 0; right: 0; border: 0;" 
-           src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" 
-           alt="Fork me on GitHub" 
-           data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
-    </a>
-
-    <div class="row">
-      <div class="col-md-4">
-        <img style="width: 100%" src="picture.png"/>
-
-        <h2>Prof. Albert Einstein</h2>
-
-        <br>
-
-        <a href="https://www.ias.edu/">Institute for Advanced Study</a>,<br/>
-        1 Einstein Drive<br/>
-        Princeton, N.J. 08540<br/>
-        U.S.A.<br/>
-        <br/>
-
-        <p>
-          Links:
-          <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Albert_Einstein">@Wikipedia</a></li>
-            <li><a href="http://www.nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-facts.html"
-                   >@Nobelprize.org</a></li>
-            <li><a href="https://www.britannica.com/biography/Albert-Einstein">@Britannica.com</a></li>
-          </ul>
-        </p>
-        <div class="spacer">
-
-        </div>
-      </div>
-      
-      <!-- .................................. -->
-      
-      <div class="col-md-8">
-        Citing <a href="https://en.wikipedia.org/wiki/Albert_Einstein">Wikipedia</a>:
-        <blockquote cite="https://en.wikipedia.org/wiki/Albert_Einstein"
-                    style="max-width: 80%">
-          Albert Einstein (14 March 1879 – 18 April 1955) was a
-          German-born theoretical physicist. He developed the
-          general theory of relativity, one of the two pillars of
-          modern physics (alongside quantum mechanics). Einstein's
-          work is also known for its influence on the philosophy of
-          science. Einstein is best known in popular culture for his
-          mass–energy equivalence formula E = mc<sup>2</sup> (which
-          has been dubbed "the world's most famous equation"). He
-          received the 1921 Nobel Prize in Physics for his "services
-          to theoretical physics", in particular his discovery of
-          the law of the photoelectric effect, a pivotal step in the
-          evolution of quantum theory.
-        </blockquote>
-
-        <hr>
-
-        <h2>Publications</h2>
-
-        <script src="https://bibbase.org/show?bib=https://bibbase.github.io/acvt-pubs.bib&jsonp=1"></script>
-
-      </div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Un-minified script so that can play a bit -->
+<link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
+   <!-- Syntax highlighting via Prism, note: restricted langs -->
+<link rel="stylesheet" href="/libs/highlight/github.min.css">
+   
+  <link rel="stylesheet" href="/css/judoc.css">
+  <link rel="stylesheet" href="/css/poole_hyde.css">
+  <!-- style adjustments -->
+  <style>
+    html {font-size: 17px;}
+    .jd-content {position: relative; padding-left: 8%; padding-right: 5%; line-height: 1.35em;}
+    @media (min-width: 940px) {
+      .jd-content {width: 100%; margin-left: auto; margin-right: auto;}
+    }
+    @media (max-width: 768px) {
+      .jd-content {padding-left: 6%; padding-right: 6%;}
+    }
+  </style>
+  <link rel="icon" href="/assets/infra/favicon.png">
+   <title>JuDoc Example</title>  
+</head>
+<body>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">      
+      <p class="lead">Zygmunt Szpak, PhD</p>
     </div>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item " href="/">Home</a>
+      <a class="sidebar-nav-item " href="/pub/news.html">News</a>
+      <a class="sidebar-nav-item " href="/pub/research.html">Research</a>
+    <a class="sidebar-nav-item " href="/pub/industry.html">Industry Projects</a>
+      <a class="sidebar-nav-item " href="/pub/publications.html">Publications</a>
+      <a class="sidebar-nav-item " href="/pub/code.html">Code</a>
+  
+    </nav>
+   
+  </div>
+</div>
+<div class="content container">
+<!-- Content appended here -->
 
+<div class="jd-content">
+<h1><a id="about-me" href="#about-me">About me</a></h1>
+
+<div class="row">
+  <div class="container">
+    <img class="left" src="assets/index/zszpak.jpg" width="150" height="227">
+    <p>
+    I'm a <i>postdoctoral research fellow</i> at the <a href="https://www.adelaide.edu.au/aiml/">Australian Institute for Machine Learning</a>. I'm also the <i>Director of AI applications</i>. My role includes:
+    <p>
+      1. Leading the development of machine learning for practical applications;
+    </p>
+    <p>
+      2. Assisting partner organisations to understand how machine learning can be turned into applications;
+    </p>
+    <p>
+     3. Provisioning training in the applications of machine learning on real world problems. 
+    </p>
+<h4>What am I working on?</h4>
+    <p>
+    I work at the interface of computer vision, machine learning and challenging industry problems, developing algorithms that allow computers to perform tasks typically associated with human intelligence, by perceiving the world in    three dimensions and reasoning about images’ content.
+    </p>
+    <h4>
+    How did I come to be here?
+    </h4>
+    <p>
+    I was introduced to computer vision and image processing by Professor Jules Tapamo, an inspirational lecturer at the University of KwaZulu-Natal in Durban, South Africa. I completed a master’s degree under his tutelage and came to Australia to pursue a PhD.
+
+    Before I arrived here, I had an opportunity to attend a machine learning lecture series presented by Professor Ernest Fokoue, from New York’s Rochester Institute of Technology. This sparked my imagination and convinced me that I wanted to work at the interface of machine learning and computer vision.
+
+    I started my PhD at the University of Adelaide in late 2009 and completed it in 2013, then stayed on as a postdoctoral researcher at AIML (then the Australian Centre for Visual Technologies).
+    </p>
+    <h4>
+    How can you reach me?
+    </h4>
+    <p>
+    You can find me on <a href="https://github.com/zygmuntszpak">GitHub</a>, <a href="https://linkedin.com/in/dr-zygmunt-szpak-a415976b">Linkedin</a> or email me at  <code>𝛂.𝛃@adelaide.edu.au</code> where 𝛂 is zygmunt and 𝛃  is szpak.
+    </p>
+    <div style="clear: both"></div>      
+  </div>
+</div>
+
+<div class="page-foot">
+  <div class="copyright">
+    &copy; Septimia Zenobia. Last modified: August 12, 2019. Website built with <a href="https://github.com/tlienart/JuDoc.jl">JuDoc.jl</a>.
+  </div>
+</div>
+
+</div>
+<!-- CONTENT ENDS HERE -->
+    </div>  <!-- div: content container -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
+    
+    
+        <script src="/libs/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
+
+    
   </body>
 </html>

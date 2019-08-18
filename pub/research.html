@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Un-minified script so that can play a bit -->
+<link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
+  
+  <link rel="stylesheet" href="/css/judoc.css">
+  <link rel="stylesheet" href="/css/poole_hyde.css">
+  <!-- style adjustments -->
+  <style>
+    html {font-size: 17px;}
+    .jd-content {position: relative; padding-left: 8%; padding-right: 5%; line-height: 1.35em;}
+    @media (min-width: 940px) {
+      .jd-content {width: 100%; margin-left: auto; margin-right: auto;}
+    }
+    @media (max-width: 768px) {
+      .jd-content {padding-left: 6%; padding-right: 6%;}
+    }
+  </style>
+  <link rel="icon" href="/assets/infra/favicon.png">
+   <title>Research</title>  
+</head>
+<body>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">      
+      <p class="lead">Zygmunt Szpak, PhD</p>
+    </div>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item " href="/">Home</a>
+      <a class="sidebar-nav-item " href="/pub/news.html">News</a>
+      <a class="sidebar-nav-item " href="/pub/research.html">Research</a>
+    <a class="sidebar-nav-item " href="/pub/industry.html">Industry Projects</a>
+      <a class="sidebar-nav-item " href="/pub/publications.html">Publications</a>
+      <a class="sidebar-nav-item " href="/pub/code.html">Code</a>
+  
+    </nav>
+   
+  </div>
+</div>
+<div class="content container">
+<!-- Content appended here -->
+
+<div class="jd-content">
+<h1><a id="research" href="#research">Research</a></h1>
+<h2><a id="explainable-and-diagnosable-machine-learning" href="#explainable-and-diagnosable-machine-learning">Explainable and Diagnosable Machine Learning</a></h2>
+<p>I am developing a new framework for diagnosing machine learning algorithms. The methodology allows one to better understand what a machine learned about a particular domain.</p>
+<h2><a id="multiple-view-geometry" href="#multiple-view-geometry">Multiple View Geometry</a></h2>
+<p><img src="/assets/pages/research/planarscene.png" alt="Multiple View Geometry" /> A classic problem in computer vision, called multiple view geometry, is to recover the three-dimensional structure of a scene given several images taken from different vantage points. Working primarily with <a href="https://cs.adelaide.edu.au/~wojtek/">Wojciech Chojnacki</a>, I am studying various compelling unsolved problems. What makes multiple view geometry so challenging is that the underlying projective models lead to non-linear errors-in-variables parameter estimation problems. Hence Wojciech and I find ourselves working at the interface of various disciplines such as numerical analysis, projective geometry, statistics and computer science.</p>
+<p>We are particularly interested in:</p>
+<ol>
+<li><p>devising new parameter estimation techniques which result in estimates with desirable properties &#40;e.g. unbiased and consistent&#41;;</p>
+</li>
+<li><p>devising new unconstrained optimisation methods which are simpler to implement and faster than established schemes such as Levenberg–Marquardt;</p>
+</li>
+<li><p>deriving and imposing constraints associated with various mathematical models in multiple view geometry;</p>
+</li>
+<li><p>creating new constrained optimisation methods which naturally and reliably enforce constraints.</p>
+</li>
+</ol>
+<p>Hence our research endeavours can be characterised as both theoretical and practical. </p>
+<h2><a id="ellipse-fitting" href="#ellipse-fitting">Ellipse Fitting</a></h2>
+<p><img src="/assets/pages/research/ellipsefitting.png" alt="Ellipse Fitting" /> Like the circle, the ellipse is one of those primitive geometric shapes that crops up time and time again in many different scenarios. Whether we are tracking an object, calibrating a catadioptric camera or studying cells and crystals, we are bound to end up having to fit an ellipse sooner or later. Surprisingly, fitting an ellipse is actually a hard problem, and much can be learned about more complicated parameter estimation problems in multiple view geometry by studying ellipse fitting. </p>
+<h2><a id="image-processing-at-the-limits-of-resolution" href="#image-processing-at-the-limits-of-resolution">Image Processing at the Limits of Resolution</a></h2>
+<p><img src="/assets/pages/research/lowellipses.png" alt="Limits of Resolution" /> At the limits of camera resolution, objects are blurred, tiny, and almost unrecognisable. To extract relevant knowledge from such limited data, one needs to have some weak prior information about the nature of the object under observation, and a comprehensive mathematical model of the image formation process. The canonical mathematical models of the image formation process make numerous simplifying assumptions which are inadequate when one needs to work at the limit of the sensor resolution. For example, the standard image formation model does not take diffraction and other sources of image blur into account.</p>
+<p>When working at the limits of sensitivity, one needs to be able to model what happens at the sub-pixel level, and this means that one needs to take the details of the photosensitive area within each pixel into account. <a href="https://cs.adelaide.edu.au/~wojtek/">Wojciech Chojnacki</a> and I are developing a more sophisticated and tractable mathematical model of the image formation process, which can facilitate precise curve fitting to limited and blurred pixel data. The model incorporates the effects of several elements—the point-spread function, the discretisation step, the quantisation step, and photon noise. 
+<div class="page-foot">
+  <div class="copyright">
+    &copy; Septimia Zenobia. Last modified: August 18, 2019. Website built with <a href="https://github.com/tlienart/JuDoc.jl">JuDoc.jl</a>.
+  </div>
+</div>
+
+</div>
+<!-- CONTENT ENDS HERE -->
+    </div>  <!-- div: content container -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
+    
+    
+  </body>
+</html>
