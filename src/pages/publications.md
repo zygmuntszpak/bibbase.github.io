@@ -7,7 +7,7 @@ Chojnacki, W. and Szpak, Z.
 *Determining ellipses from low-resolution images with a comprehensive image formation model*
 Journal of the Optical Society of America A: Optics and Image Science, and Vision, **2019**, Vol. 36(2), pp. 212-233
 ~~~<br>~~~
-[[PDF]](/assets/pages/publications/ellipselowres.pdf) [[DOI]](https://doi.org/10.1364/JOSAA.36.000212)
+[[PDF]](/assets/pages/publications/ellipse_limits_resolution.pdf) [[DOI]](https://doi.org/10.1364/JOSAA.36.000212)
 
 
 
