@@ -5,6 +5,37 @@
 
 # News
 
+#### 6--8 December 2019
+Had the wonderful opportunity of serving as a judge for the [_VEX Robotics National Tournament_](https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-19-8819.html) which took place in Adelaide. 
+![Vex Robotics National Tournament](/assets/pages/talks/vex_robotics_2019/vex_robotics_1.jpg)
+
+
+#### 26--27 November 2019
+Organised a workshop [_A guided tour of Practical Data Science with R_](https://www.adelaide.edu.au/aiml/events/list/2019/11/a-guided-tour-of-practical-data-science-with-r) which was deliverd by [Prof. Ernest Fokoué](https://www.rit.edu/directory/epfeqa-ernest-fokoue)  from the _Rochester Institute of Technology_. The workshop introduced fundamental statistical concepts and techniques that ubiquitously permeate Statistical Machine Learning, Data Science and Artificial Intelligence.
+![Guided Tour of Data Science 2019](/assets/pages/talks/guided_tour_r_2019/guided_tour_2.jpeg)
+
+#### 22 November 2019
+Presented a talk for the [University of South Australia's](https://unisa.edu.au/) _Early Career Research Network_. The presentation was pitched at fellow scientists who want to develop an intuitive understanding of the core concepts that underpin machine learning.
+![ECR 2019](/assets/pages/talks/unisa_ecr_2019/ecr_unisa.jpg)
+
+#### 15 November 2019
+Contributed to a technology news article written by [Nahum Gale](http://thewire.org.au/team/nahum-gale/) on [_How CAPTCHA tests are helping driverless cars_](https://ontherecordunisa.com.au/2019/11/15/how-captcha-tests-are-helping-driverless-cars/).
+![CAPTCHA Tests help driverless cars](/assets/pages/news/articles/captcha/captcha.png)
+
+
+#### 29 October 2019
+Delivered a workshop on [_How can you prepare your business for transformation in the age of data analytics, automation and robotics?_](https://imarcmelbourne.com/technology-workshop/) at the "International Mining and Resources Conference" (IMARC). 
+[![IMARC 2019](/assets/pages/talks/imarc2019/imarc_preview.png)](https://www.youtube.com/watch?v=BpZNnGYaMPs "How can you prepare your business for transformation in the age of data analytics, automation and robotics?")
+
+#### 27 August 2019
+Presented an overview of applied machine learning to the HR Committee of the [_Member’s Health Fund Alliance_](http://membershealth.com.au/)
+
+#### 3 August 2019
+Appeared on the Scope TV show speaking about my research on managing chronic wounds using machine learning and computer vision technology. You can watch the segment [_here_](https://www.youtube.com/watch?v=JH72RL4nNY4). This work is based on my collaboration with [_LBT Innovations_](https://lbtinnovations.com/).
+
+![Industry Capability Network 2019 (1)](/assets/pages/talks/scope/woundvuescope_small.jpg)
+
+
 
 #### 6 June 2019
 Gave a talk on [_The case for incorporating prediction machines in manufacturing_](https://icn.org.au/events/south-australia/disruptive-technologies-seminar-adelaide-6-june-2019) for the Industry Capability Network as part of their "Disruptive Technologies Seminar". 
